@@ -1,0 +1,102 @@
+body {
+    background: #232830;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    border: 5px outset red;
+    width: 1680px;
+    height: 2753px;
+    border: 0;
+
+
+}
+
+.header {
+    width: 1236px;
+    height: 515px;
+    position: absolute;
+    top: 75px;
+    right: 226px;
+    left: 218px;
+    
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.home {
+    
+    font-size: 30px;
+}
+
+.categories {
+    position: absolute;
+    top: 15px;
+    right: 232px;
+    font-size: 24px;
+}
+
+.articles {
+    position: absolute;
+    top: 15px;
+    right: 108px;
+    font-size: 24px;
+}
+
+.about {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 24px;
+}
+
+.logo {
+    position: absolute;
+    top: 136px;
+    right: 503px;
+    bottom: 153px;
+    left: 510px;
+    border-radius: 20px;
+}
+
+.heading {
+    position: absolute;
+    top: 381px;
+    right: 284px;
+    bottom: 49px;
+    color: #FF7575;
+    font-family: 'Poppins', sans-serif;
+    font-family: Recursive;
+    font-size: 71px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.subtitle {
+    position: absolute;
+    top: 471px;
+    right: 394px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.categoryListing{
+    border: 5px outset red;
+    position: absolute;
+    top: 689px;
+
+}
+
+ul{
+    display: inline-flex;
+    justify-content: space-between;
+}
