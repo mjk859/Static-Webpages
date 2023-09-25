@@ -90,13 +90,55 @@ a {
 }
 
 .categoryListing{
-    border: 5px outset red;
+    width: 1236px;
+    height: 65px;
     position: absolute;
     top: 689px;
+    left: 218px;
+    
 
+}
+
+hr{
+    height: 1px;
+    border-width: 0;
+    opacity: 0.2;
+    background-color: #4D4D4D;
 }
 
 ul{
-    display: inline-flex;
-    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
 }
+li{
+    float: left;
+    
+}
+
+a{
+    display: block;
+    padding: 8px;
+    margin: 0 55px;
+}
+
+.articlesListing{
+    width: 1244px;
+    height: 1391px;
+    position: absolute;
+    top: 848px;
+    left: 218px;
+}
+
+.card {
+    width: 390px;
+    height: 439px;
+    background-color: white;
+    border-radius: 22px;
+}
+
+.middleCard {
+    margin: 37px 0;
+}
+
