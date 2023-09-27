@@ -89,7 +89,7 @@ a {
     margin: 0;
 }
 
-.categoryListing{
+.category{
     width: 1236px;
     height: 65px;
     position: absolute;
@@ -106,13 +106,13 @@ hr{
     background-color: #4D4D4D;
 }
 
-ul{
+.categoryUl{
     list-style-type: none;
     margin: 0;
     padding: 0;
     
 }
-li{
+.categoryLi{
     float: left;
     
 }
@@ -123,7 +123,8 @@ a{
     margin: 0 55px;
 }
 
-.articlesListing{
+.articlesListing1{
+    display: flex;
     width: 1244px;
     height: 1391px;
     position: absolute;
@@ -139,6 +140,126 @@ a{
 }
 
 .middleCard {
-    margin: 37px 0;
+    margin: 0 37px;
+}
+.articlesListing2 {
+    display: flex;
+    position: absolute;
+    top: 1324px;
+    left: 218px;
+}
+.articlesListing3 {
+    display: flex;
+    position: absolute;
+    top: 1800px;
+    left: 218px;
 }
 
+.image1, .image4, .image7{
+    width: 337px;
+    height: 160px;
+    border-radius: 22px;
+    position: absolute;
+    top: 26px;
+    left: 26.46px;
+}
+h4 {
+    color: #0F1217;
+    font-size: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    width: 337px;
+    height: 58px;
+    position: absolute;
+    
+}
+.head1, .head4, .head7{
+    position: absolute;
+    top: 219px;
+    left: 26.46px;
+}
+p{
+    color: #0F1217;
+    width: 326px;
+    height: 72px;
+}
+.desc1, .desc4, .desc7{
+    position: absolute;
+    top: 290px;
+    left: 26.46px;
+}
+.sub1, .sub4, .sub7{
+    position: absolute;
+    top: 386px;
+    left: 26px;
+}
+.image2, .image5, .image8{
+    width: 337px;
+    height: 160px;
+    border-radius: 22px;
+    position: absolute;
+    top: 26px;
+    left: 453.28px;
+}
+.image3, .image6, .image9{
+    width: 337px;
+    height: 160px;
+    border-radius: 22px;
+    position: absolute;
+    top: 26px;
+    right: 26.46px;
+}
+.head2, .head5, .head8 {
+    position: absolute;
+    top: 219px;
+    left: 453.28px;
+}
+.desc2, .desc5, .desc8 {
+    position: absolute;
+    top: 290px;
+    left: 453.28px;
+}
+.sub2, .sub5, .sub8{
+    position: absolute;
+    top: 386px;
+    left: 453.28px;
+}
+.head3, .head6, .head9 {
+    position: absolute;
+    top: 219px;
+    right: 26.46px;
+}
+.desc3, .desc6, .desc9 {
+    position: absolute;
+    top: 290px;
+    right: 26.46px;
+}
+.sub3, .sub6, .sub9{
+    position: absolute;
+    top: 386px;
+    right: 26.46px;
+}
+.pagination{
+    color: #909090;
+    text-decoration: none;
+    width: 478px;
+    height: 47px;
+    position: absolute;
+    bottom: 352px;
+    left: 571px;
+    font-family: Recursive;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+}
+.paginationAnch{
+    display: inline;
+    margin: 0;
+
+}
+.prev {
+    margin-right: 20px;
+}
+.next {
+    margin-left: 20px;
+}
