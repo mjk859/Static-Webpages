@@ -81,3 +81,40 @@ body {
 
     /* Add more styles as needed */
 }
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .header {
+        /* Adjust styles for smaller screens */
+        text-align: center;
+    }
+
+    .category, .articlesListing1, .articlesListing2, .articlesListing3 {
+        /* Adjust styles for smaller screens */
+        width: 100%;
+        left: 0;
+    }
+
+    .card, .middleCard {
+        /* Adjust styles for smaller screens */
+        width: 100%;
+        margin: 0;
+    }
+
+    .pagination {
+        /* Adjust styles for smaller screens */
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+    .footer {
+        /* Adjust styles for smaller screens */
+        text-align: center;
+    }
+}
+
+/* Additional media queries for larger screens if needed */
+@media only screen and (min-width: 1200px) {
+    /* Add more styles for larger screens if needed */
+}
