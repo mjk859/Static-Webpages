@@ -4,117 +4,301 @@ body {
     font-family: 'Poppins', sans-serif;
     position: relative;
     border: 5px outset red;
-    width: 100%; /* Change width to 100% for responsiveness */
-    height: auto; /* Change height to auto for responsiveness */
+    width: 1680px;
+    height: 2753px;
     border: 0;
+
+
 }
 
-/* Add a media query for smaller screens */
-@media only screen and (max-width: 768px) {
-    .header {
-        width: 100%; /* Adjust width for smaller screens */
-        top: 20px;
-        right: 0;
-        left: 0;
-    }
-
-    .categories, .articles, .about {
-        top: 5px;
-        right: 0;
-        font-size: 18px;
-    }
-
-    .logo {
-        top: 60px;
-        right: 10%;
-        left: 10%;
-    }
-
-    .heading {
-        top: 200px;
-        right: 5%;
-    }
-
-    .subtitle {
-        top: 250px;
-        right: 5%;
-        font-size: 20px;
-    }
-
-    .category {
-        width: 100%;
-        top: 350px;
-        left: 0;
-    }
-
-    .pagination {
-        width: 100%;
-        bottom: 20px;
-        left: 0;
-        text-align: center;
-    }
-
-    .footer > hr {
-        width: 100%;
-        bottom: 150px;
-    }
-
-    .footer > p {
-        bottom: 50px;
-        left: 5%;
-        font-size: 20px;
-    }
-
-    .github, .social {
-        width: 100%;
-        left: 0;
-        text-align: center;
-    }
+.header {
+    position: absolute;
+    top: 75px;
+    left: 100px;
+    width: 1236px;
+    height: 515px;    
 }
 
-/* Additional styles for larger screens if needed */
-@media only screen and (min-width: 1200px) {
-    .header {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    /* Add more styles as needed */
+a {
+    color: #FFF;
+    text-decoration: none;
 }
 
-/* Media query for smaller screens */
-@media only screen and (max-width: 768px) {
-    .header {
-        /* Adjust styles for smaller screens */
-        text-align: center;
-    }
-
-    .category, .articlesListing1, .articlesListing2, .articlesListing3 {
-        /* Adjust styles for smaller screens */
-        width: 100%;
-        left: 0;
-    }
-
-    .card, .middleCard {
-        /* Adjust styles for smaller screens */
-        width: 100%;
-        margin: 0;
-    }
-
-    .pagination {
-        /* Adjust styles for smaller screens */
-        width: 100%;
-        left: 0;
-        text-align: center;
-    }
-
-    .footer {
-        /* Adjust styles for smaller screens */
-        text-align: center;
-    }
+.home {
+    
+    font-size: 30px;
 }
 
-/* Additional media queries for larger screens if needed */
-@media only screen and (min-width: 1200px) {
-    /* Add more styles for larger screens if needed */
+.categories {
+    position: absolute;
+    top: 15px;
+    left: 696px;
+    font-size: 24px;
+}
+
+.articles {
+    position: absolute;
+    top: 15px;
+    right: 108px;
+    font-size: 24px;
+}
+
+.about {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 24px;
+}
+
+.logo {
+    position: absolute;
+    top: 136px;
+    right: 503px;
+    bottom: 153px;
+    left: 510px;
+    border-radius: 20px;
+}
+
+.heading {
+    position: absolute;
+    top: 381px;
+    right: 284px;
+    bottom: 49px;
+    color: #FF7575;
+    font-family: 'Poppins', sans-serif;
+    font-family: Recursive;
+    font-size: 71px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.subtitle {
+    position: absolute;
+    top: 471px;
+    right: 394px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.category{
+    width: 1236px;
+    height: 65px;
+    position: absolute;
+    top: 689px;
+    left: 218px;
+    
+
+}
+
+hr{
+    height: 1px;
+    border-width: 0;
+    opacity: 0.2;
+    background-color: #4D4D4D;
+}
+
+.categoryUl{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.categoryLi{
+    float: left;
+    
+}
+
+a{
+    display: block;
+    padding: 8px;
+    margin: 0 55px;
+}
+
+.articlesListing1{
+    display: flex;
+    width: 1244px;
+    height: 1391px;
+    position: absolute;
+    top: 848px;
+    left: 218px;
+}
+
+.card {
+    width: 390px;
+    height: 439px;
+    background-color: white;
+    border-radius: 22px;
+}
+
+.middleCard {
+    margin: 0 37px;
+}
+.articlesListing2 {
+    display: flex;
+    position: absolute;
+    top: 1324px;
+    left: 218px;
+}
+.articlesListing3 {
+    display: flex;
+    position: absolute;
+    top: 1800px;
+    left: 218px;
+}
+
+.image1, .image4, .image7{
+    width: 337px;
+    height: 160px;
+    border-radius: 22px;
+    position: absolute;
+    top: 26px;
+    left: 26.46px;
+}
+h4 {
+    color: #0F1217;
+    font-size: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    width: 337px;
+    height: 58px;
+    position: absolute;
+    
+}
+.head1, .head4, .head7{
+    position: absolute;
+    top: 219px;
+    left: 26.46px;
+}
+p{
+    color: #0F1217;
+    width: 326px;
+    height: 72px;
+}
+.desc1, .desc4, .desc7{
+    position: absolute;
+    top: 290px;
+    left: 26.46px;
+}
+.sub1, .sub4, .sub7{
+    position: absolute;
+    top: 386px;
+    left: 26px;
+}
+.image2, .image5, .image8{
+    width: 337px;
+    height: 160px;
+    border-radius: 22px;
+    position: absolute;
+    top: 26px;
+    left: 453.28px;
+}
+.image3, .image6, .image9{
+    width: 337px;
+    height: 160px;
+    border-radius: 22px;
+    position: absolute;
+    top: 26px;
+    right: 26.46px;
+}
+.head2, .head5, .head8 {
+    position: absolute;
+    top: 219px;
+    left: 453.28px;
+}
+.desc2, .desc5, .desc8 {
+    position: absolute;
+    top: 290px;
+    left: 453.28px;
+}
+.sub2, .sub5, .sub8{
+    position: absolute;
+    top: 386px;
+    left: 453.28px;
+}
+.head3, .head6, .head9 {
+    position: absolute;
+    top: 219px;
+    right: 26.46px;
+}
+.desc3, .desc6, .desc9 {
+    position: absolute;
+    top: 290px;
+    right: 26.46px;
+}
+.sub3, .sub6, .sub9{
+    position: absolute;
+    top: 386px;
+    right: 26.46px;
+}
+.pagination{
+    color: #909090;
+    text-decoration: none;
+    width: 478px;
+    height: 47px;
+    position: absolute;
+    bottom: 352px;
+    left: 571px;
+    font-family: Recursive;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+}
+.paginationAnch{
+    display: inline;
+    margin: 0;
+
+}
+.prev {
+    margin-right: 20px;
+}
+.next {
+    margin-left: 20px;
+}
+.footer > hr {
+    width: 1680px;
+    height: 3px;
+    opacity: 0.2;
+    background: #4D4D4D;
+    position: absolute;
+    bottom: 195px;
+}
+.footer > p {
+    position: absolute;
+    bottom: 90px;
+    left: 219px;
+    color: #FFF;
+    font-size: 30px;
+    margin-right: 50px;
+}
+.github {
+    width: 130px;
+    height: 34px;
+    position: absolute;
+    bottom: 140px;
+    left: 325px;
+    border-radius: 5px;
+    background: #4699E0;
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+}
+.social {
+    position: absolute;
+    right: 238px;
+    bottom: 153px;
+    border-radius: 5px;
+    background: #4699E0;
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
 }
